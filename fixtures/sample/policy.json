@@ -1,0 +1,6 @@
+{
+  "allowedRooms": ["eng-oncall", "agent-lab"],
+  "allowedCommands": ["ping", "summarize", "inspect"],
+  "requireMention": true,
+  "botUserId": "wecombridge"
+}
