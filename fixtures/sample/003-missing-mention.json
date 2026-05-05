@@ -1,0 +1,9 @@
+{
+  "id": "msg-003",
+  "type": "message",
+  "roomId": "agent-lab",
+  "sender": "bob",
+  "text": "please summarize this thread",
+  "timestamp": "2026-05-06T06:02:00+10:00",
+  "mentions": []
+}
