@@ -1,0 +1,43 @@
+{
+  "name": "wecombridge",
+  "version": "0.1.0",
+  "description": "Local-first WeCom fixture replay, policy checks, and streaming adapter tools for agent channel development.",
+  "type": "module",
+  "main": "./src/index.js",
+  "bin": {
+    "wecombridge": "./bin/wecombridge.js"
+  },
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "fixtures",
+    "examples",
+    "README.md",
+    "SECURITY.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "check": "node scripts/check.js",
+    "build": "node scripts/build.js",
+    "smoke": "node scripts/smoke.js",
+    "package:smoke": "npm pack --dry-run",
+    "release:check": "npm test && npm run check && npm run build && npm run smoke && npm run package:smoke"
+  },
+  "keywords": [
+    "wecom",
+    "wechat-work",
+    "openclaw",
+    "agent",
+    "fixtures",
+    "local-first"
+  ],
+  "author": "Roger Chappel",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  }
+}
