@@ -39,5 +39,13 @@
   "license": "MIT",
   "engines": {
     "node": ">=20"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rogerchappel/wecombridge.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rogerchappel/wecombridge/issues"
+  },
+  "homepage": "https://github.com/rogerchappel/wecombridge#readme"
 }
