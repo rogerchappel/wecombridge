@@ -58,7 +58,4 @@ jobs:
             npm install
           fi
 
-          npm run check --if-present
-          npm test --if-present
-          npm run smoke --if-present
-          npm run package:smoke --if-present
+          npm run release:check
